@@ -1,0 +1,9 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/*menu*/
+header {
+    background-image: linear-gradient(to left, rgb(230, 173, 184) 0%, transparent 85%);
+}
