@@ -7,3 +7,205 @@ html {
 header {
     background-image: linear-gradient(to left, rgb(230, 173, 184) 0%, transparent 85%);
 }
+
+a:link {
+    color: rgb(242, 119, 119);
+}
+
+a:visited {
+    color: white
+}
+
+.nav-item {
+    text-shadow: 1px 1px 10px rgb(236, 56, 56);
+    font-family: 'Raleway', sans-serif;
+}
+
+.d-flex {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    background-color: #e54c4c;
+    transition: all ease 0.3s;
+    border-radius: 15px; 
+}
+
+/*slider*/
+span:hover {
+    background-color: #D1CABA;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+
+.carousel-inner h5 {
+    text-shadow: 2px 2px 8px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*contenido index*/
+main {
+    background: rgb(247, 231, 233);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.card h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+.card p {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card a {
+    background-color: #e54c4c;
+    color: white;
+    padding: 10px 10px;
+    margin: 40px 60px;
+    display: block;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.postres {
+    background-image: url(../src/postres.jpg);
+}
+
+.bebidas {
+    background-image: url(../src/bebidas.jpg);
+}
+
+.recetas {
+    background-image: url(../src/recetas.jpg);
+}
+
+.contacto {
+    background-image: url(../src/contacto.jpg); 
+} 
+
+/*Postres*/
+.container-postres {
+    display: flex;
+    justify-content: center;
+}
+
+.card-postres { 
+    background-color: rgb(230, 173, 184);
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image-postres {
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.postre1 {
+    background-image: url(../src/Cheesecake-frutos-rojos.jpg);
+}
+
+.postre2 {
+    background-image: url(../src/flancaramelo.jpg);
+}
+
+.postre3 {
+    background-image: url(../src/pastel-tres-leches.jpg);
+}
+
+.card-postres h2 {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-postres p {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Bebidas*/
+.container-bebidas {
+    display: flex;
+    justify-content: center;
+}
+
+.card-bebidas { 
+    background-color: rgb(230, 173, 184);
+    width: 500px;
+    height: 600px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.card-image-bebidas {
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.bebida1 {
+    background-image: url(../src/cafeamericano.jpg);
+}
+
+.bebida2 {
+    background-image: url(../src/capuccino.jpg);
+}
+
+.bebida3 {
+    background-image: url(../src/frapuccino.jpg);
+}
+
+.bebida4 {
+    background-image: url(../src/malteadachocolate.jpg);
+}
+
+.bebida5 {
+    background-image: url(../src/soda.jpg);
+}
+
+.card-bebidas h2 {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-bebidas p {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*footer*/
