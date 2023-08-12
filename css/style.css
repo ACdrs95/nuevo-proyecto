@@ -17,7 +17,7 @@ a:visited {
 }
 
 .nav-item {
-    text-shadow: 1px 1px 10px rgb(236, 56, 56);
+    text-shadow: 2px 2px 8px black;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -87,6 +87,7 @@ main {
 .card a {
     background-color: #e54c4c;
     color: white;
+    text-decoration: none;
     padding: 10px 10px;
     margin: 40px 60px;
     display: block;
@@ -208,4 +209,178 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
+/*recetas*/
+.container-recetas {
+    display: flex;
+}
+
+.card-recetas { 
+    background-color: rgb(230, 173, 184);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-recetas h2 {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-recetas ul {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-recetas p {
+    padding: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*contacto*/
+.container-contacto {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.contact-form button {
+    background-color: #e54c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
 /*footer*/
+.container-footer {
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+    background:  rgb(230, 173, 184);
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: white;
+    text-shadow: 2px 2px 8px black;
+	margin-bottom: 35px;
+	position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a { 
+	font-size: 16px;
+	color: white;
+    text-shadow: 2px 2px 8px black;
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+	display: block;
+	transition: all 0.3s ease;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-col ul li a:hover {
+	color: white;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: rgb(230, 173, 184);
+	background-color:  #e54c4c;
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+    .contact-form {
+        max-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .contact-form {
+        max-width: 100%;
+    }
+}
+@media(max-width: 768px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 480px){
+    .footer-col{
+        width: 100%;
+    }
+}
